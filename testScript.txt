@@ -1,0 +1,21 @@
+-- testScript.txt
+-- CS330 2024 Fall PEX4
+
+-- test data
+let t00 = []
+let t01 = [('a','o'),('a','u')]
+let t02 = [('a','u'),('a','o')]
+
+-- run tests using data specified above
+print "             ---TEST 00 - expect: unknot"
+print (" input: " ++ show t00)
+print ("output: " ++ (unKnot t00))
+
+print "             ---TEST 01 - expect: unknot"
+print ("input: " ++ show t01)
+print ("output: " ++ (unKnot t01))
+
+print "             ---TEST 02 - expect: unknot"
+print ("input: " ++ show t02)
+print ("output: " ++ (unKnot t02))
+
